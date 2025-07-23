@@ -95,7 +95,8 @@ Linux 2 (WSL 2):
 - 10.0.22621.xx: Work In Progress
 - 10.0.22621.x: Work In Progress
 - 10.0.22621.1
-- 10.0.22000.2713: Only for Direct3D 12 binaries.
+- 10.0.22000.2713: Only for libd3d12.so in Direct3D 12 binaries are updated.
+- 10.0.22000.2600: Only for Direct3D 12 binaries.
 - 10.0.22000.xxxx: Work In Progress
 - 10.0.22000.120: Only for libD3D12Core.so in Direct3D 12 binaries are updated.
 - 10.0.22000.1
