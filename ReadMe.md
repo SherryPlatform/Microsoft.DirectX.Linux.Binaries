@@ -3,14 +3,7 @@
 Official binaries of Microsoft Direct3D 12 for Linux extracted from Windows
 Subsystem for Linux 2 (WSL 2).
 
-## Note
-
-Some people ask me why contains 10.0.20277.1 version's binary.
-
-Because this is the last version for Windows Iron branch which have both arm64
-and x64 version. Also, I had calculated the SHA-256 between related x64 files 
-from 20277.1 and related files from Windows Server 2022 ISOs before 20348.1970,
-and the results are the same.
+## Notes
 
 ### DirectX 12 Agility SDK Versions Reference
 
@@ -86,6 +79,40 @@ and the results are the same.
 - 0.50.2: Not existed.
 - 0.48.2: Not existed. 
 - 0.47.1: Not existed.
+
+### Inbox Direct3D 12 versions from Windows Subsystem for Linux 2 (WSL 2)
+
+We know that the inbox version of Windows Subsystem for Linux has been removed
+starting with Windows 11 Build 25267, which noted in
+https://github.com/microsoft/WSL/issues/9355#issuecomment-1358023777.
+
+Here are the list for inbox Direct3D 12 versions from Windows Subsystem for
+Linux 2 (WSL 2):
+
+- 10.0.22621.xxxx: Work In Progress
+- 10.0.22621.xxx: Work In Progress
+- 10.0.22621.xx: Work In Progress
+- 10.0.22621.x: Work In Progress
+- 10.0.22621.1
+- 10.0.22000.xxxx: Work In Progress
+- 10.0.22000.120: Only for libD3D12Core.so in Direct3D 12 binaries are updated.
+- 10.0.22000.1
+- 10.0.20348.2849, 10.0.20348.2461: Only for Direct3D 12 x64 binaries.
+- 10.0.20348.xxxx: Work In Progress
+- 10.0.20277.1: The last version for Windows Iron branch which have both full
+  arm64 and x64 binaries. Also, the SHA-256 between related x64 files from
+  20277.1 and related files from Windows Server 2022 ISOs before 20348.1970
+  are the same.
+- 10.0.19041.6159: Use the same binaries from 10.0.19041.4474 & 10.0.19041.3996.
+- 10.0.19041.4474: Only for DXCore binaries.
+- 10.0.19041.3996: Only for Direct3D 12 x64 binaries.
+- 10.0.19041.3636: Only for Direct3D 12 arm64 binaries. Only libD3D12Core.so
+  exists in Direct3D 12 arm64 binaries. 
+- 10.0.19041.xxxx (The collection is WIP)
+- From December 13, 2022 to May 29, 2024 for DXCore binaries.
+- From December 13, 2022 to January 23, 2024 for Direct3D 12 binaries.
+- 10.0.19041.2364: Use the same binaries from 10.0.19041.1202.
+- 10.0.19041.1202: Only libD3D12Core.so exists in Direct3D 12 arm64 binaries.
 
 ## License
 
