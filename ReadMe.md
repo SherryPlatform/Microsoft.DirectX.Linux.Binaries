@@ -89,27 +89,34 @@ https://github.com/microsoft/WSL/issues/9355#issuecomment-1358023777.
 Here are the list for inbox Direct3D 12 versions from Windows Subsystem for
 Linux 2 (WSL 2):
 
-- 10.0.22621.5699: Use the same binaries from 10.0.22621.xxxx & 10.0.22621.xxxx.
+- 10.0.22621.5699: Use the same binaries from 10.0.22621.3958 & 10.0.22621.1.
+- 10.0.22621.3958: Only for DXCore binaries.
 - 10.0.22621.xxxx: Work In Progress
-- 10.0.22621.xxx: Work In Progress
-- 10.0.22621.xx: Work In Progress
-- 10.0.22621.x: Work In Progress
+- 10.0.22621.1635: Use the same binaries from 10.0.22621.1.
 - 10.0.22621.1
 - 10.0.22000.2713: Only for libd3d12.so in Direct3D 12 binaries are updated.
 - 10.0.22000.2600: Only for Direct3D 12 binaries.
-- 10.0.22000.xxxx: Work In Progress
+- 10.0.22000.2360: Only for Direct3D 12 binaries.
+- 10.0.22000.2359: Work In Progress
+- 10.0.22000.2245: Work In Progress
+- 10.0.22000.2243: Work In Progress
+- 10.0.22000.1761: Work In Progress
+- 10.0.22000.1757: Work In Progress
 - 10.0.22000.120: Only for libD3D12Core.so in Direct3D 12 binaries are updated.
 - 10.0.22000.1
-- 10.0.20348.3807: Use the same binaries from 10.0.20348.2849 & 10.0.20277.1.
-- 10.0.20348.2849, 10.0.20348.2461: Only for Direct3D 12 x64 binaries.
-- 10.0.20348.xxxx: Work In Progress
+- 10.0.20348.3807: Use the same binaries from 10.0.20348.2461 & 10.0.20277.1.
+- 10.0.20348.2461: Only for libd3d12.so in Direct3D 12 x64 binaries are updated.
+- 10.0.20348.2227: Only for libd3d12.so in Direct3D 12 x64 binaries are updated.
+- 10.0.20348.1970: Only for Direct3D 12 x64 binaries.
 - 10.0.20277.1: The last version for Windows Iron branch which have both full
   arm64 and x64 binaries. Also, the SHA-256 between related x64 files from
   20277.1 and related files from Windows Server 2022 ISOs before 20348.1970
   are the same.
-- 10.0.19041.6159: Use the same binaries from 10.0.19041.4474 & 10.0.19041.3996.
+- 10.0.19041.6159: Use the same binaries from 10.0.19041.4474 & 10.0.19041.3996
+  & 10.0.19041.3636.
 - 10.0.19041.4474: Only for DXCore binaries.
 - 10.0.19041.3996: Only for Direct3D 12 x64 binaries.
+- 10.0.19041.3992: Except for Direct3D 12 arm64 binaries.
 - 10.0.19041.3636: Only for Direct3D 12 arm64 binaries. Only libD3D12Core.so
   exists in Direct3D 12 arm64 binaries. 
 - 10.0.19041.xxxx (The collection is WIP)
@@ -117,6 +124,7 @@ Linux 2 (WSL 2):
 - From December 13, 2022 to January 23, 2024 for Direct3D 12 binaries.
 - 10.0.19041.2364: Use the same binaries from 10.0.19041.1202.
 - 10.0.19041.1202: Only libD3D12Core.so exists in Direct3D 12 arm64 binaries.
+- 10.0.19041.1200:
 
 ## License
 
