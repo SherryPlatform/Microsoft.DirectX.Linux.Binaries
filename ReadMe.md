@@ -89,14 +89,17 @@ https://github.com/microsoft/WSL/issues/9355#issuecomment-1358023777.
 Here are the list for inbox Direct3D 12 versions from Windows Subsystem for
 Linux 2 (WSL 2):
 
+- 10.0.22621.5699: Use the same binaries from 10.0.22621.xxxx & 10.0.22621.xxxx.
 - 10.0.22621.xxxx: Work In Progress
 - 10.0.22621.xxx: Work In Progress
 - 10.0.22621.xx: Work In Progress
 - 10.0.22621.x: Work In Progress
 - 10.0.22621.1
+- 10.0.22000.2713: Only for Direct3D 12 binaries.
 - 10.0.22000.xxxx: Work In Progress
 - 10.0.22000.120: Only for libD3D12Core.so in Direct3D 12 binaries are updated.
 - 10.0.22000.1
+- 10.0.20348.3807: Use the same binaries from 10.0.20348.2849 & 10.0.20277.1.
 - 10.0.20348.2849, 10.0.20348.2461: Only for Direct3D 12 x64 binaries.
 - 10.0.20348.xxxx: Work In Progress
 - 10.0.20277.1: The last version for Windows Iron branch which have both full
