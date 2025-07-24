@@ -118,12 +118,8 @@ Linux 2 (WSL 2):
   & 10.0.19041.3636.
 - 10.0.19041.4474: Only for DXCore binaries.
 - 10.0.19041.3992: Only for DXCore binaries and Direct3D 12 x64 libd3d12.so.
-- 10.0.19041.3636: Only for Direct3D 12 binaries. Only libD3D12Core.so exists in
+- 10.0.19041.3391: Only for Direct3D 12 binaries. Only libD3D12Core.so exists in
   Direct3D 12 arm64 binaries. 
-- 10.0.19041.3570: Work In Progress
-- 10.0.19041.3393: Work In Progress
-- 10.0.19041.3391: Work In Progress
-- 10.0.19041.3324: Use the same binaries from 10.0.19041.1200.
 - 10.0.19041.1200: Only libD3D12Core.so exists in Direct3D 12 arm64 binaries.
 
 ## License
