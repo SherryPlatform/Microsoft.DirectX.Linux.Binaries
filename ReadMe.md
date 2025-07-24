@@ -25,6 +25,7 @@ Subsystem for Linux 2 (WSL 2).
 | 1.4.x   | [?] Cobalt (rs_prerelease/co_release) |
 | 1.3.x   | Iron (fe_release)                     |
 | 1.2.x   | Vibranium (vb_release)                |
+| 1.1.x   | Titanium (19h1_release)               |
 
 | Series  | Operating System                           |
 |---------|--------------------------------------------|
@@ -40,6 +41,7 @@ Subsystem for Linux 2 (WSL 2).
 | 1.2.x   | Windows 10, version 21H1 (Build 19043)     |
 | 1.2.x   | Windows 10, version 20H2 (Build 19042)     |
 | 1.2.x   | Windows 10, version 2004 (Build 19041)     |
+| 1.1.x   | Windows 10, version 1909 (Build 18363)     |
 
 ### Packaged Direct3D 12 versions from Windows Subsystem for Linux 2 (WSL 2)
 
@@ -112,19 +114,17 @@ Linux 2 (WSL 2):
   arm64 and x64 binaries. Also, the SHA-256 between related x64 files from
   20277.1 and related files from Windows Server 2022 ISOs before 20348.1970
   are the same.
-- 10.0.19041.6159: Use the same binaries from 10.0.19041.4474 & 10.0.19041.3996
+- 10.0.19041.6159: Use the same binaries from 10.0.19041.4474 & 10.0.19041.3992
   & 10.0.19041.3636.
 - 10.0.19041.4474: Only for DXCore binaries.
-- 10.0.19041.3996: Only for Direct3D 12 x64 binaries.
-- 10.0.19041.3992: Except for Direct3D 12 arm64 binaries.
-- 10.0.19041.3636: Only for Direct3D 12 arm64 binaries. Only libD3D12Core.so
-  exists in Direct3D 12 arm64 binaries. 
-- 10.0.19041.xxxx (The collection is WIP)
-- From December 13, 2022 to May 29, 2024 for DXCore binaries.
-- From December 13, 2022 to January 23, 2024 for Direct3D 12 binaries.
-- 10.0.19041.2364: Use the same binaries from 10.0.19041.1202.
-- 10.0.19041.1202: Only libD3D12Core.so exists in Direct3D 12 arm64 binaries.
-- 10.0.19041.1200:
+- 10.0.19041.3992: Only for DXCore binaries and Direct3D 12 x64 libd3d12.so.
+- 10.0.19041.3636: Only for Direct3D 12 binaries. Only libD3D12Core.so exists in
+  Direct3D 12 arm64 binaries. 
+- 10.0.19041.3570: Work In Progress
+- 10.0.19041.3393: Work In Progress
+- 10.0.19041.3391: Work In Progress
+- 10.0.19041.3324: Use the same binaries from 10.0.19041.1200.
+- 10.0.19041.1200: Only libD3D12Core.so exists in Direct3D 12 arm64 binaries.
 
 ## License
 
