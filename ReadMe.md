@@ -93,8 +93,18 @@ Linux 2 (WSL 2):
 
 - 10.0.22621.5699: Use the same binaries from 10.0.22621.3958 & 10.0.22621.1.
 - 10.0.22621.3958: Only for DXCore binaries.
-- 10.0.22621.xxxx: Work In Progress
-- 10.0.22621.1635: Use the same binaries from 10.0.22621.1.
+- 10.0.22621.3951: Work In Progress
+- 10.0.22621.3672: Work In Progress
+- 10.0.22621.3668: Work In Progress
+- 10.0.22621.3374: Work In Progress
+- 10.0.22621.3371: Work In Progress
+- 10.0.22621.3085: Work In Progress
+- 10.0.22621.3078: Work In Progress
+- 10.0.22621.2506: Work In Progress
+- 10.0.22621.2361: Work In Progress
+- 10.0.22621.2359: Work In Progress
+- 10.0.22621.1778: Work In Progress
+- 10.0.22621.1776: Work In Progress
 - 10.0.22621.1
 - 10.0.22000.2713: Only for libd3d12.so in Direct3D 12 binaries are updated.
 - 10.0.22000.2600: Only for libd3d12.so in Direct3D 12 binaries are updated.
